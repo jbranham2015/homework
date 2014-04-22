@@ -1,0 +1,9 @@
+Book:
+  - title: string
+  - author: string
+
+#Book:
+#   - title: string
+#   - price: integer
+#   - summary: text
+#   - hardcover: boolean

@@ -1,0 +1,57 @@
+<br>
+<head>
+
+<h1>
+<strong> <div align="center"> <font color="Indigo">Welcome to Smorgasbooks! A Short Compilation of Science Fiction Meets Science Genius </strong>
+</h1>
+
+
+<div align="center"><table>
+<table border="1" style="border-collapse:collapse;" cellpadding="5" cellspacing="25"  width="500" summary="">
+<thead>
+  <tr>
+    <th align="left"> Title </th>
+    <th align="left"> Author </th>
+  </tr>
+  </thead>
+  <% all_books = Book.read %>
+  <tbody>
+<% all_books.each do |book| %>
+  <tr>
+    <td> <%= book["title"] %> </td>
+    <td> <%= book["author"] %> </td>
+  </tr>
+<% end %>
+</tbody>
+</table>
+</div>
+</font>
+<h3>
+<div align="left">
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=a%20brief%20history%20in%20time&sprefix=a+brief+history+in%2Caps&rh=i%3Aaps%2Ck%3Aa%20brief%20history%20in%20time">Buy A Brief History Here!</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.amazon.com/s/ref=nb_sb_ss_c_0_19?url=search-alias%3Dstripbooks&field-keywords=alice+in+wonderland&sprefix=alice+in+wonderland%2Caps%2C192&rh=n%3A283155%2Ck%3Aalice+in+wonderland">Buy Alice in Wonderland Here!</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.amazon.com/s/ref=nb_sb_ss_i_0_17?url=search-alias%3Dstripbooks&field-keywords=lord+of+the+rings&sprefix=lord+of+the+rings%2Cstripbooks%2C192&rh=n%3A283155%2Ck%3Alord+of+the+rings">Buy Lord of the Rings Here!</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.amazon.com/s/ref=nb_sb_ss_i_0_10?url=search-alias%3Dstripbooks&field-keywords=the+hobbit&sprefix=the+hobbit%2Cstripbooks%2C192&rh=n%3A283155%2Ck%3Athe+hobbit">Saving the best for last, Buy The Hobbit Here!</a>
+
+</div>
+</h3>
+<br>
+<h2>
+<div align="center"> ADDITIONAL TITLES COMING SOON
+<br>
+<br>
+<div align="center"><img src="http://gadgets.boingboing.net/gimages/koelewijnwerk02.jpg">
+
+</h2>
